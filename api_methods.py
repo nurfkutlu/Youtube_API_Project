@@ -1,5 +1,7 @@
 import pandas as pd
 
+# Method 1 :
+
 def get_channel_stats(youtube, channel_ids):
     all_data = []
 
@@ -21,6 +23,8 @@ def get_channel_stats(youtube, channel_ids):
         all_data.append(data)
     
     return pd.DataFrame(all_data)
+
+# method 2
 
 def get_video_ids(youtube, playlist_id):
     video_ids = []

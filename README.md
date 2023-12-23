@@ -14,3 +14,8 @@ An example project for data science lessons that using Youtube API.
 
     --> Add your YOUTUBE_API_KEY inside config.py
 
+    ## About Files
+    - Youtube_API_Expanded : It's my folder that can ı  sketch all of things and ideas.
+    - API_Methods : methods that ı use in this folder
+    - Analysis : My all analysis
+
