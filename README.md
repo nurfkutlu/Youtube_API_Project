@@ -19,7 +19,19 @@ An example project for data science lessons that using Youtube API.
     - API_Methods : methods that ı use in this folder
     - Analysis : My all analysis
 
-    ## Path
+    ## Path General
+
+    1. Set Up Google API Project:
+
+    - Go to the Google Developers Console.
+    - Create a new project or select an existing one.
+    - Enable the "YouTube Data API v3" for your project.
+    - Create credentials (API key or OAuth client ID) to authenticate your requests.
+
+    2. Install Required Libraries:
+    - You need to install the **google-api-python-client** library. You can install it using:
+
+    ## Path for our project
 
     - Your main aim : Pull response and turn to json method and do analyze from this structure.
 
@@ -34,10 +46,12 @@ An example project for data science lessons that using Youtube API.
        
         I analyzed Channels and PlaylistItems .
         https://developers.google.com/youtube/v3/docs.
-        - Channels --> Overview --> Methods --> List --> Try it now --> Try this method --> Python 
+        - Channels,Videos,.. --> Overview --> Methods --> List --> Try it now --> Try this method --> Python 
 
         It gives me lots of codes . Client type, ı will use by API Key .
 
         See exact path from  **Youtube_API_expanded.ipynb> Path Section**
     6) Analyze data that pull response and turn to json method.
+
+
     
