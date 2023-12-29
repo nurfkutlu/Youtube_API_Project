@@ -15,9 +15,14 @@ An example project for data science that using Youtube API.
     --> Add your YOUTUBE_API_KEY inside config.py
 
     ## About Files
-    - Youtube_API_Expanded : It's my folder that can ı  sketch all of things and ideas.
-    - API_Methods : methods that ı use in this folder
-    - Analysis : My all analysis
+    - [Youtube_Channels_PlaylistItems](Youtube_Channels_PlaylistItems.ipynb)
+    The folder that investigate the Channels and Playlistitems
+
+    - [Youtube_Videos_CommentThreads](Youtube_Videos_CommentThreads.ipynb)
+    The folder that investigate the Videos are belong toh the most views in Turkey and CommentThreads
+
+    - [api_methods](api_methods.py) methods that ı use in this folder. There are 5 methods for all analysis
+    - [analysis](analysis.ipynb) : My all analysis in Channels & PlaylistItems Analysis
 
     ## Path General
 
@@ -31,11 +36,13 @@ An example project for data science that using Youtube API.
     2. Install Required Libraries:
     - You need to install the **google-api-python-client** library. You can install it using:
 
+    3. Do your analysis according to the documentation.
+
     ## Path for our project
 
     - Your main aim : Pull response and turn to json method and do analyze from this structure.
 
-    Example file : https://github.com/nurfkutlu/Youtube_API_Project/blob/main/Youtube_API_expanded.ipynb
+    Example file : https://github.com/nurfkutlu/Youtube_API_Project/blob/main/Youtube_Channels_PlaylistItems.ipynb
 
 
     1) Analyze API_Key 
@@ -44,7 +51,8 @@ An example project for data science that using Youtube API.
     4) Create . ignore
     5) Start analyze your API Key web page 
        
-        I analyzed Channels, PlaylistItems .
+        I analyzed Channels, PlaylistItems,Videos,CommentTreads.
+        Dcument:
         https://developers.google.com/youtube/v3/docs.
         - Channels,Videos,.. --> Overview --> Methods --> List --> Try it now --> Try this method --> Python 
 
@@ -52,6 +60,11 @@ An example project for data science that using Youtube API.
 
         See exact path from  **Youtube_API_expanded.ipynb> Path Section**
     6) Analyze data that pull response and turn to json method.
+       To analyze by json method ;
+       You can use this web pages :
+       - https://www.objgen.com/json/local/rh49EaBVJ
+       - https://jsonformatter.org/json-editor
+
 
 
     
