@@ -1,6 +1,6 @@
 # Youtube_api-Project
 
-An example project for data science lessons that using Youtube API.
+An example project for data science that using Youtube API.
 
 - Source: https://developers.google.com/youtube/v3/getting-started
 
@@ -44,7 +44,7 @@ An example project for data science lessons that using Youtube API.
     4) Create . ignore
     5) Start analyze your API Key web page 
        
-        I analyzed Channels and PlaylistItems .
+        I analyzed Channels, PlaylistItems .
         https://developers.google.com/youtube/v3/docs.
         - Channels,Videos,.. --> Overview --> Methods --> List --> Try it now --> Try this method --> Python 
 
