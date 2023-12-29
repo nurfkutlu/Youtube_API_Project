@@ -92,12 +92,15 @@ def get_most_pop_Youtube_TR(youtube):
         }
         all_data.append(data)
 
-        """ 
-        ------------------------------------------------------
+""" 
+------------------------------------------------------
         
-        """
+"""
+
+#Method 4 
 
 # Get comments for the specified video
+
 comments = []
 nextPageToken = None
 
@@ -122,3 +125,40 @@ while True:
 # Print or use the retrieved comments
 for comment in comments:
     print(comment)
+
+
+""" 
+------------------------------------------------------
+        
+"""
+
+#Method 5 
+#get_commentThreads
+
+def get_commentThreads(youtube):
+    all_data = []
+
+# This request method is defined as below . You can include what you want in part. 
+    # https://developers-dot-devsite-v2-prod.appspot.com/youtube/v3/docs/commentThreads/list?apix=true#usage you can look detailly.
+    
+    request = youtube.commentThreads().list(
+        part="snippet,replies",
+         maxResults=5000,
+        videoId="aWaJSJmsy3c" # Nasıl Ayrıldık? Nasıl Barıştık Video ID
+    )
+    response = request.execute()
+
+    print(response)
+
+
+    # loop through items in response
+    #json webpage ( https://jsonformatter.org/json-editor) is sooo good to anayze.
+    for item in response["items"]:
+        data = {'textDisplay':item['snippet']['topLevelComment']['snippet']['textDisplay'],
+                'authorDisplayName': item['snippet']['topLevelComment']['snippet']['authorDisplayName'],
+                'likeCount':item['snippet']['topLevelComment']['snippet']['likeCount'],
+                'publishedAt':item['snippet']['topLevelComment']['snippet']['publishedAt'],
+                'totalReplyCount':item['snippet']['totalReplyCount']
+        }
+        all_data.append(data)
+    return pd.DataFrame(all_data)
