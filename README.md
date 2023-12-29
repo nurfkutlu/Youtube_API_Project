@@ -67,3 +67,37 @@ An example project for data science that using Youtube API.
 
 
 For visualisation source :https://medium.com/@fatmanurkutlu1/right-chart-type-for-data-visualization-in-python-1e90b7d22696
+
+## Project Conclusion by Example Graphs
+For : [Youtube_Videos_CommentThreads](Youtube_Videos_CommentThreads.ipynb)
+
+### 1. The highest video views : video likes and comment count 
+
+![Alt text](image-2.png)
+![Alt text](image-3.png)
+![Alt text](image-5.png)
+
+- As you see Kızıl Goncalar and Sandık Kokusu ( Turkısh new trend movies) has highest view but has low like count according to the short daily influencer video ( Neden ayrıldık?Nasıl Bar & Hediyelik Yılbaşı Çik.). 
+* Videos are sorted by descending.
+
+### 2. PublishTime & View Relation
+- Reaction changes According to the audience and video relation
+
+![Alt text](image-6.png)
+
+### 3. The most repeated words in videos
+#### Kızıl Goncalar  ;
+
+We can see that ;
+ - supportive and positive comments of audiences
+ - popular TV actor names that liked by audiences
+ - some wishes for movie future
+![Alt text](image-7.png)
+
+#### Neden Ayrıldık? Neden barıştık
+
+We can see that ;
+- supportive,positive and critical comments of audiences
+- We also notice many comments stating that they engage in such behavior for money.
+- Influencer private life is so attractive for people we can see that like and comment counts and popular comment words.
+![Alt text](image-8.png)
