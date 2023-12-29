@@ -16,7 +16,7 @@ An example project for data science that using Youtube API.
 
     ## About Files
     - [Youtube_Channels_PlaylistItems](Youtube_Channels_PlaylistItems.ipynb)
-    The folder that investigate the Channels and Playlistitems
+    The folder that investigate the Channels and Playlistitems.
 
     - [Youtube_Videos_CommentThreads](Youtube_Videos_CommentThreads.ipynb)
     The folder that investigate the Videos are belong toh the most views in Turkey and CommentThreads
@@ -66,5 +66,4 @@ An example project for data science that using Youtube API.
        - https://jsonformatter.org/json-editor
 
 
-
-    
+For visualisation source :https://medium.com/@fatmanurkutlu1/right-chart-type-for-data-visualization-in-python-1e90b7d22696
